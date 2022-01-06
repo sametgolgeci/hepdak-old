@@ -57,7 +57,7 @@ const Belgeler = () => (
               <tbody>
                 <tr>
                   <th scope="row" width="10px">1</th>
-                  <td><p>HEPDAK 2021-2022 Dönemi Program Değerlendirme Başvuru Formu <Link href="doc/b1-basvuru-2022-2023.doc"><a>Word</a></Link></p></td>
+                  <td><p>HEPDAK 2021-2022 Dönemi Program Değerlendirme Başvuru Formu <Link href="doc/b1-basvuru-2021-2022.doc"><a>Word</a></Link></p></td>
                 </tr>
                 <tr>
                   <th scope="row">2</th>
@@ -93,7 +93,7 @@ const Belgeler = () => (
                 </tr>
                 <tr>
                   <th scope="row">10</th>
-                  <td>Değerlendirme Takım Üyelerinin Değerlendirilmesi <Link href="doc/b10_v1.pdf"><a>Sürüm 1.0</a></Link> | <strong>Sürüm 2.0</strong> (<Link href="doc/b10_v2.pdf"><a>PDF</a></Link> | <Link href="doc/b10_v2.doc"><a>Word</a></Link>)</td>
+                  <td> Değerlendirme Takım Üyelerinin Değerlendirilmesi <Link href="doc/b10_v1.pdf"><a>Sürüm 1.0</a></Link> | <strong>Sürüm 2.0</strong> (<Link href="doc/b10_v2.pdf"><a>PDF</a></Link> | <Link href="doc/b10_v2.doc"><a>Word</a></Link>)</td>
                 </tr>
                 <tr>
                   <th scope="row">11</th>
@@ -105,7 +105,7 @@ const Belgeler = () => (
                 </tr>
                 <tr>
                   <th scope="row">13</th>
-                  <td>HEPDAK Akredite Eğitim Programları İçin Gelişim Raporu Hazırlama Rehberi <strong>Sürüm 1.0</strong> (<Link href="doc/b13_v1.pdf"><a>PDF</a></Link> | <Link href="doc/b13_v1.doc"><a>Word</a></Link>) | <strong>Sürüm 2.0</strong> (<Link href="doc/b13_v2.pdf"><a>PDF</a></Link> | <Link href="doc/b13_v2.docx"><a>Word</a></Link>) | <strong>Sürüm 2.1</strong> (<Link href="doc/b13_v2_1.pdf"><a>PDF</a></Link> | <Link href="doc/b13_v2_1.docx"><a>Word</a></Link>) | <strong>Sürüm 2.2 <span className="belge-span">Güncel</span></strong> (<Link href="doc/b13_v2_2.pdf"><a>PDF</a></Link> | <Link href="doc/b13_v2_2.docx"><a>Word</a></Link>)</td>
+                  <td>HEPDAK Akredite Eğitim Programları İçin Gelişim Raporu Hazırlama Rehberi <strong>Sürüm 1.0</strong> (<Link href="doc/b13_v1.pdf"><a>PDF</a></Link> | <Link href="doc/b13_v1.doc"><a>Word</a></Link>) | <strong>Sürüm 2.0</strong> (<Link href="doc/b13_v2.pdf"><a>PDF</a></Link> | <Link href="doc/b13_v2.docx"><a>Word</a></Link>) | <strong>Sürüm 2.1 <span className="belge-span">Güncel</span></strong> (<Link href="doc/b13_v2_1.pdf"><a>PDF</a></Link> | <Link href="doc/b13_v2_1.docx"><a>Word</a></Link>)</td>
                 </tr>
                 <tr>
                   <th scope="row">14</th>

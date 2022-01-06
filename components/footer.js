@@ -2,14 +2,12 @@ import Link from 'next/link'
 import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone,faEnvelope,faMapMarkerAlt,faChevronRight } from '@fortawesome/free-solid-svg-icons'
-import { faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => (
 <div className="footer">
 	<div className="footer-items">
 		<div className="col-sm-12 col-md-3 footer-item">
 			<div className="footer-logo">
-				
 				<Link href="/"><a><img className="footer-img" src="img/hepdak-logo-white.png" title="HEPDAK"></img></a></Link>
 				<div className="footer-info-item"> 
 					<div className="footer-info-icon"><FontAwesomeIcon className="footer-icon" icon={faPhone}/></div>
@@ -18,14 +16,6 @@ const Footer = () => (
 				<div className="footer-info-item"> 
 					<div className="footer-info-icon"><FontAwesomeIcon className="footer-icon" icon={faEnvelope}/></div>
 					<div className="footer-info-color"><Link href="mailto:hepdak2013@gmail.com"><a>info@hepdak.org.tr</a></Link></div>
-				</div>
-				<div className="footer-info-item"> 
-					<div className="footer-info-icon"><FontAwesomeIcon className="footer-icon" icon={faYoutube}/></div>
-					<div className="footer-info-color"><Link href="https://www.youtube.com/channel/UC96oXHHypl1WFXpOkvwwj9A/featured"><a>HEPDAK TV</a></Link></div>
-				</div>
-				<div className="footer-info-item"> 
-					<div className="footer-info-icon"><FontAwesomeIcon className="footer-icon" icon={faInstagram}/></div>
-					<div className="footer-info-color"><Link href="https://www.instagram.com/hepdak/"><a>HEPDAK</a></Link></div>
 				</div>
 				<div className="footer-info-item"> 
 					<div className="footer-info-icon"><FontAwesomeIcon className="footer-icon" icon={faMapMarkerAlt}/></div>
@@ -40,10 +30,15 @@ const Footer = () => (
 			<div className="footer-item-link"><Link href="/amac-ve-faaliyetler"><a>Amaç ve Faaliyetler</a></Link></div>
 			<div className="footer-item-link"><Link href="/kalite-politikasi"><a>Kalite Politikası</a></Link></div>
 			<div className="footer-item-link"><Link href="/doc/hepdak_org_sema.pdf"><a>HEPDAK Organizasyon Şeması</a></Link></div>
+			<div className="footer-item-link"><Link href="/yonetim-ve-denetleme-kurulu"><a>Yönetim ve Denetleme Kurulu</a></Link></div>
 			<div className="footer-item-link"><Link href="/kurul-ve-komisyonlar"><a>Kurul ve Komisyonlar</a></Link></div>
 			<div className="footer-item-link"><Link href="/uye-listesi"><a>Üye Listesi</a></Link></div>
+			<div className="footer-item-link"><Link href="/doc/Uluslararasi_Calismalar.pdf"><a>Uluslararası Çalışmalar</a></Link></div>
 			<div className="footer-item-link"><Link href="/tescil-yazilari"><a>Tescil Yazıları</a></Link></div>
-			<div className="footer-item-link"><Link href="/dernek-belgeleri"><a>Dernek Belgeleri</a></Link></div>
+			<div className="footer-item-link"><Link href="/doc/hepdak-faaliyet-belgesi.pdf"><a>Dernek Faaliyet Belgesi</a></Link></div>
+			<div className="footer-item-link"><Link href="/doc/hepdak_iktisadi_isletme.pdf"><a>İktisadi İşletme</a></Link></div>
+			<div className="footer-item-link"><Link href="/doc/hepdak-kira-sozlesmesi.pdf"><a>Kira Sözleşmesi</a></Link></div>
+			<div className="footer-item-link"><Link href="/https://www.facebook.com/pg/hepdak/photos/"><a>Fotoğraf Albümü</a></Link></div>
 		</div>	
 		<div className="col-sm-12 col-md-3 footer-item">
 			<div className="footer-item-title"><strong>Akreditasyon</strong></div>
@@ -69,13 +64,11 @@ const Footer = () => (
 			<div className="footer-item-link"><Link href="/heak-ve-komisyon-toplantilari"><a>HEAK ve Komisyon Toplantıları</a></Link></div>
 			<div className="footer-item-link"><Link href="/tutarlilik-komisyonu-toplantilari"><a>Tutarlılık Komisyonu Toplantıları</a></Link></div>
 			<div className="footer-item-link"><Link href="/takim-baskani-toplantilari"><a>Takım Başkanları Toplantıları</a></Link></div>
-			{/*
 			<div className="footer-item-title footer-item-title-calistay"><strong>Eğitimler</strong></div>
 			<div className="footer-item-link"><Link href="/webinar"><a>Webinarlar</a></Link></div>
 			<div className="footer-item-link"><Link href="/sempozyumlar"><a>Sempozyumlar</a></Link></div>
 			<div className="footer-item-link"><Link href="/egitim-etkinlikleri"><a>Eğitim Etkinlikleri</a></Link></div>
 			<div className="footer-item-link"><Link href="/cagrili-konusmalar"><a>Çağrılı Konuşmalar</a></Link></div>
-			*/}
 		</div>		
 	</div>
 	<div className="footer-copy">
